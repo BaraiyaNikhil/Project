@@ -6,8 +6,8 @@ const nodemailer = require("nodemailer");
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "baraiyanikhil593@gmail.com",
-    pass: "dhnz iwde ngax mtdp",
+    user: ""your-email@gmail.com",
+    pass: "dhgg iwggg ssaw fddp",
   },
 });
 
@@ -27,7 +27,7 @@ Priority: ${todo.priority}
 Status: ${todo.status}`;
 
     await transporter.sendMail({
-      from: "baraiyanikhil593@gmail.com",
+      from: ""your-email@gmail.com",
       to: email,
       subject: "Shared Task from TodoApp",
       text: `Hi,
