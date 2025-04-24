@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb+srv://baraiyanikhil593:mongodb2003@cluster0.mcm5boj.mongodb.net/tododb", {
+  .connect("connetion link of yours", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
